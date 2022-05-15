@@ -1,0 +1,27 @@
+.menu > li {
+    float: left;
+    list-style-type: none;
+}
+.menu > li > a {
+    margin-left: 5px;
+    text-decoration: none;
+    color: black;
+}
+.menu > li > a:hover {
+    background-color: rgb(120, 125, 138);
+}
+.EveryThird > li > a {
+    color: #0E1116;
+}
+.EveryThird > li::before{
+    content: "\2192";
+}
+.EveryThird li:nth-child(3n) {
+    background-color: #88292F;
+}
+.EveryThird li:nth-child(3n+1) {
+    background-color: #5DB7DE;
+}
+.EveryThird li:nth-child(3n+2) {
+    background-color: #0D5D56;
+}
