@@ -1,0 +1,82 @@
+.profilePreview {
+    display: flex;
+    width: 300px;
+    height: 600px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:flex-start;
+    flex-direction: column;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 15px;
+}
+.profilePreview > img {
+    margin-top: 2.5%;
+    height: 60%;
+    width: 97.5%;
+}
+.profilePreview > p {
+    max-width: 97.5%;
+    height: 20%;
+    text-align: center;
+    margin-top: 0px;
+}
+.profilePreview > h2 {
+    max-width: 97.5%;
+    height: 5%;
+    margin: 5px;
+}
+.profilePreview > button {
+    height: 5%;
+    width: 30%;
+    background-color: rgb(30, 53, 30);
+    color: azure;
+}
+@keyframes imgAnimation {
+    100% {
+        transform: rotate(5deg);
+    }
+}
+@keyframes nameAnimation {
+    66% {
+        transform: scale(1.15);
+    }
+    100% {
+        transform: scale(1.15);
+        color: pink;
+    }
+}
+@keyframes likeAnimation {
+    100% {
+        width: 97.5%;
+        background-color: pink;
+    }
+
+}
+.profilePreview > img:hover {
+    animation: imgAnimation 0.2s ease;
+    animation-iteration-count: 1;
+    animation-fill-mode:both;
+}
+.profilePreview > h2:hover {
+    animation: nameAnimation 0.3s ease;
+    animation-iteration-count: 1;
+    animation-fill-mode:both;
+}
+.profilePreview > button:hover {
+    animation: likeAnimation 0.3s ease;
+    animation-iteration-count: 1;
+    animation-fill-mode:both;
+}
+
+table {
+    border: 2px solid brown;
+    border-collapse: collapse;
+}
+caption {
+    background-color: brown;
+    color: white;
+}
+td {
+    border: 2px solid brown;    
+}

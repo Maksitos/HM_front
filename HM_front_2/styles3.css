@@ -1,0 +1,13 @@
+.galery {
+    width: 1200px;
+    height: 1000px;
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+}
+.galery > img {
+    max-height: 33%;
+    width: 33%;
+    flex-grow: 1;
+}
