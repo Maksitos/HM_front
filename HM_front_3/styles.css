@@ -1,0 +1,59 @@
+form {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(234, 252, 155);
+}
+form > h1 {
+    width: 100%;
+}
+form > h2 {
+    width: 30%;
+    margin: 0px 5px 5px;
+    font-size: 18px;
+    text-align: end;
+}
+form > input {
+    width: 60%;
+    height: 20px;
+    margin: 0px 0px 5px;
+}
+form > input[type=radio] {
+    width: 5%;
+}
+.datatype {
+    width: 20%;
+}
+form > select {
+    width: 100px;
+    height: 26px;
+    margin: 0px 6px 0px 6px;
+}
+form > input[type=submit] {
+    width: 20%;
+    margin-left: 32.6%;
+}
+form > input[type=reset] {
+    width: 20%;
+}
+form > input[type=checkbox] {
+    width: 5%;
+}
+#famale + label {
+    margin-right: 35%;
+}
+#license {
+    margin-left: 31.6%;
+} 
+#license + label {
+    margin-right: 31.6%;
+}
+#address {
+    width: 362px;
+    height: 60px;
+    resize: vertical;
+    margin-bottom: 5px;
+}
+select:first-child {
+    color: gray;
+}

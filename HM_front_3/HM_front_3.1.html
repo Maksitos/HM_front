@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>hm</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <h1>Регистрация</h1>
+        <h2>Фамилия:</h2><input type="text" placeholder="Введите фамилию">
+        <h2>Имя:</h2><input type="text" placeholder="Введите имя">
+        <h2>Отчество:</h2><input type="text" placeholder="Введите отчество">
+        <h2>Дата рождения:</h2><input class="datatype" type="number" placeholder="День" max="31" min="1">
+        <select>
+            <option selected disabled hidden>Месяц</option>
+            <option>Январь</option>
+            <option>Февраль</option>
+            <option>Март</option>
+            <option>Апрель</option>
+            <option>Май</option>
+            <option>Июнь</option>
+            <option>Июль</option>
+            <option>Август</option>
+            <option>Сентябрь</option>
+            <option>Октябрь</option>
+            <option>Ноябрь</option>
+            <option>Декабрь</option>
+        </select>
+        <input type="number" class="datatype" placeholder="Год" max="2010" min="1900">
+        <h2>Email:</h2><input type="email" placeholder="Email">
+        <h2>Пароль:</h2><input type="password" placeholder="Введите пароль">
+        <h2>Подтвердите пароль:</h2><input type="password" placeholder="Введите пароль еще раз">
+        <h2>Телефон:</h2><input type="tel" placeholder="Введите номер телефона">
+        <h2>Адрес:</h2><textarea id="address" cols="20" rows="10" placeholder="Введите Адрес"></textarea>
+        <h2>Пол:</h2><input type="radio" name="sex" id="male"><label for="male">Мужской</label>
+        <input type="radio" name="sex" id="famale"><label for="female">Женский</label>
+        <input type="checkbox" id="license"><label for="license">Я согласен с <a href="#">условиями</a></label>
+        <input type="submit" id="submit" value="Регистрация">
+        <input type="reset" value="Очистить форму">
+        <script src="main.js"></script>
+    </form>
+</body>
