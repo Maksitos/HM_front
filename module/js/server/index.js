@@ -71,7 +71,7 @@ app.patch("/todo/:id", (req, res) => {
     } else {
         const newTodo = req.body;
         const toWrite = content.map((i) => {
-            if (i.id === id) {
+            if (i.id == id) {
                 return newTodo;
             }
             return i;
